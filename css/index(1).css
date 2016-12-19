@@ -1,0 +1,356 @@
+.bgColor{background:#cb0616;}
+.floatLeft{float: left;}
+.floatRight{float: right;}
+.spanz{color: #fff;font-size: 24px;font-weight: bolder;margin-left: 15px;}
+/************header start*************/
+header{
+	width:1325px;
+	height:430px;
+	background:#f9f9f9;
+}
+header .top{
+	width:100%;
+	height:36px;
+	background: #f5f5f5;
+	padding: 10px 0 10px 120px;
+	box-sizing:border-box; 
+}
+header .biglogo{
+	width:100%;
+	height:152px;
+	background: url(../images/biglogo.png) no-repeat 120px 50px;
+}
+/************header end*************/
+
+/************nav start*************/
+nav{
+	width:100%;
+	height:43px;
+	background:#e70012
+}
+nav>ul{
+	width:1080px;
+	height:100%;
+	margin:0 auto;
+}
+nav>ul>li{
+	float: left;
+	width:12%;
+	text-align: center;
+	line-height:43px;
+	color: #fff;
+	font-size: 16px;
+}
+nav>ul>li:nth-child(1){
+	background: #1e272f;
+	width:14%;
+}
+nav>ul>li>ul{
+	background: #e20517;
+	display: none;
+}
+nav .firstul li:hover a{color: #000;}
+nav>ul>li:hover .list{
+	display: block;
+}
+nav>ul>li .list >li:hover {
+	background: #cb0616;
+	color: #333;
+}
+header .banner{
+	width:100%;
+	height:196px;
+	background: url(../images/banner.png);
+}
+/************nav end*************/
+.main{
+	width:1080px;
+	height:1820px;
+	background: #f1f1f1;
+	margin:30px auto;
+}
+.main .notice{
+	width:100%;
+	height:54px;
+	border:1px solid gray;
+	border-radius: 10px;
+	position: relative;
+	text-align: center;
+	line-height: 54px;
+	margin-bottom: 38px;
+}
+.main .notice img{
+	position: absolute;
+	left: 143px;
+	top: 8px;
+}
+.main .left{
+	width:707px;
+	height:1680px;
+}
+.main .focus{
+	width:100%;
+	height:340px;
+}
+.main .focus img{
+	position: absolute;
+	margin-bottom: 15px;
+}
+.main .focus p{
+	position: relative;
+	top: 2px;
+}
+.main .focus .focusImg{
+	width:344px;
+	height:252px;
+	margin-top: 20px;
+}
+/*.main .focus .focuslist{margin-top: 10px;}*/
+.main .focus .focuslist img{
+	margin-left: -130px;
+}
+.main .focus .focuslist li{margin-top: 28px;}
+.main .focus .focuslist p{
+	width:190px;
+}
+.main .case{
+	width:100%;
+	height:340px;
+}
+.main .caseLeft{
+	width:344px;
+	height:100%;
+	background: url(../images/contentc.png)no-repeat;
+}
+.main .caseLeft img{
+	position: absolute;
+}
+.main .caseLeft li{
+	margin-top: 35px;
+}
+.main .caseLeft ul li p{
+	position: relative;
+	left: 125px;
+	width:180px;
+}
+
+.main .caseRight{
+	width:344px;
+	height:100%;
+}
+.main .deal{
+	width:100%;
+	height:340px;
+	background: #f9f8f8;
+	background: url(../images/lefta_03.png)no-repeat;
+}
+.main .deal img{
+	margin: 20px 0 15px 0;
+}
+.main .deal .deallist p{
+	width:213px;
+}
+.main .deal .deallist li{
+	float: left;
+	margin-left: 8px;
+}
+.main .skill{
+	width:100%;
+	height:340px;
+	margin-top: 50px;
+}
+.main .system{
+	width:100%;
+	height:340px;
+	margin-top: 50px;
+}
+/*====================main  left end====================*/
+
+
+
+
+
+/*====================main  right start====================*/
+
+
+.main .right{
+	width:307px;
+	height:1680px;
+}
+.main .right .code{
+	width:307px;
+	height:325px;
+	text-align: center;
+}
+.main .right .code .codenav{
+	width:100%;
+	height:35px;
+	background:#e70012;
+	box-sizing:border-box; 
+}
+.main .right .code .codenav img{
+	margin-top:20px;
+}
+.main .right .code .codenav .codelist{display: inline;}
+#codelist li{float: left;margin-left: 3px;}
+.main .right .code .codenav #codelist .link1 {
+	width:40px;
+	height:39px;
+	background: url(../images/contentfx.png) no-repeat;
+	background-position: 1px 0px;
+}
+.main .right .code .codenav #codelist .link2 {
+	width:40px;
+	height:39px;
+	background: url(../images/contentfx.png);
+	background-position:-43px 0px;
+}
+.main .right .code .codenav #codelist .link3 {
+	width:40px;
+	height:39px;
+	background: url(../images/contentfx.png);
+	background-position:-87px 0px;
+}
+.main .right .code .codenav #codelist .link4 {
+	width:40px;
+	height:39px;
+	background: url(../images/contentfx.png);
+	background-position:-132px 0px;
+}
+.main .right .code .codenav #codelist .link5 {
+	width:40px;
+	height:39px;
+	background: url(../images/contentfx.png);
+	background-position:-176px 0px;
+}
+.main .right .code .codenav #codelist .link6 {
+	width:40px;
+	height:39px;
+	background: url(../images/contentfx.png);
+	background-position:-222px 0px;
+}
+.main .right .code .codenav #codelist .link7{
+	width:40px;
+	height:39px;
+	background: url(../images/contentfx.png);
+	background-position:-268px 0px;
+}
+
+
+
+.main .right .live{
+	width:307px;
+	height:345px;
+	margin-top: 10px;
+}
+.main .right .live .btn li{
+	float: left;
+	width:63px;
+	height:100%;
+	background: url(../images/btn.png) no-repeat;
+	text-align:center;
+	margin-left: 5px;
+	color: #4f0006;
+}
+.main .right .live .btn li:hover{
+	background: url(../images/btnhover.png)no-repeat;
+	color: #fff;
+}
+.main .right .live .Product{
+	width:307px;
+	height:24px;
+	background:#e70012;
+	margin-top: 28px;
+}
+.main .right .live .Product li{
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 18px;
+}
+.main .right .live .productList{
+	width:307px;
+	height:120px;
+	margin-top: 5px;
+	border:1px solid gray;
+	overflow: auto;
+}
+.main .right .live .productList li{
+	float: left;
+	margin:10px 0 0 20px;
+}
+.main .right .live .productList ul li:last-of-type{width:16px;height:16px;}
+.bgup{background:url(../images/up.png) no-repeat center center;}
+.bgdo{background:url(../images/down.png) no-repeat center center;}
+.colorRed{color: red;}
+.right .quanqiu{
+	width:100%;
+	height:390px;
+}
+.right .financial{
+	width:100%;
+	height:390px;
+}
+.right .click{
+	width:100%;
+	height:270px;
+}
+.right .click .clicklist{
+	width:307px;
+	overflow: hidden;
+}
+.right .click .clicklist li{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-top:10px;
+}
+.right .click .clicklist li:before{
+	content: url(../images/contenttb.png);
+}
+/*====================main  right end====================*/
+
+
+
+/*====================footer start====================*/
+footer{
+	width:100%;
+	height:520px;
+}
+footer img{
+	width:100%;
+}
+footer .footernav{
+	width:100%;
+	height:34px;
+	background:#505050;
+	margin-top: 30px;
+}
+footer .footerlist{
+	width:1080px;
+	height:34px;
+	margin:0 auto;
+}
+footer .footerlist li{
+	float: left;
+	color: #fff;
+	width:150px;
+	text-align:center;
+	border-right: 1px dotted gray;
+	margin-top: 8px;
+}
+footer .wei{
+	width:100%;
+	height:251px;
+	background:#e8e8e8;
+	text-align: center;
+}
+footer .wei>p{
+	margin-top: 8px;
+}
+footer .logo{
+	width:572px;
+	height:56px;
+	margin: 60px 0 30px 0;
+}
+/*====================footer end====================*/
